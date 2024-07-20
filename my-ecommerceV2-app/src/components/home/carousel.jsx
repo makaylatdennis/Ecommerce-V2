@@ -7,7 +7,7 @@ function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    fetch("https://ecommerce-v2-api.onrender.com/products") 
+    fetch(import.meta.env.VITE_API_URL || "http://localhost:5000/products") 
       .then(res => res.json())
       .then(data => {
         console.log(data)

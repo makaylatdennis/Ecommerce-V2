@@ -35,7 +35,7 @@ function Products() {
   const [priceRange, setPriceRange] = useState('');
 
 useEffect(() => {
-    axios.get("https://ecommerce-v2-api.onrender.com/products")
+    axios.get(import.meta.env.VITE_API_URL || "http://localhost:5000/products")
       .then(res => {
         setProducts(res.data);
         setFilteredProducts(res.data);

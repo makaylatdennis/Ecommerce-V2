@@ -7,7 +7,7 @@ function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products") 
+    fetch("https://ecommerce-v2-api.onrender.com/products") 
       .then(res => res.json())
       .then(data => {
         console.log(data)

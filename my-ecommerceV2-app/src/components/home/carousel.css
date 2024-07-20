@@ -1,0 +1,47 @@
+.best-sellers{
+    display: grid;
+    overflow-x: auto;
+    scroll-behavior: smooth ;
+    margin-top: 9rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7rem;
+  }
+  
+  .best-sellers::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .product {
+    width: 15.625rem;
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+  }
+
+  .carousel{
+    display: flex;
+  }
+
+  .best-sellers h3{
+    margin-top: 1.5rem;
+  }
+
+.best-sellers p{
+    margin-top: 1rem;
+}
+
+#best-name{
+    color: rgb(40, 72, 60);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:991px){
+    .carousel{
+        flex-direction: column;
+        display: flex;
+    }
+}

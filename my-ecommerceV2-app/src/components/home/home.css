@@ -1,0 +1,142 @@
+
+body{
+    width: 100vw;
+    /* font-family:Futura, sans-serif; */
+    background-color:rgb(247, 242, 236);
+}
+
+
+.video-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-video{
+    height: 55rem;
+    width: 90rem;
+    border-radius: 5rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-text h1 {
+    font-size: 3rem; 
+}
+
+.hero-text p {
+    font-size: 1.5rem; 
+}
+
+.about-header{
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+  }
+  
+  #explore{
+    margin-bottom: 5rem;
+    color: rgb(106, 56, 33);
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .child-about{
+   position: relative;
+    font-size:xx-large;
+    color: rgb(106, 56, 33);
+    font-family:Futura, sans-serif;
+   text-align: left;
+   justify-content: center;
+   width: 90%;
+   line-height: 3rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .parent-about{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    height: 18rem;
+   width: 100%
+  }
+
+  .categories{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     gap: 10rem;
+     color: sienna;
+  }
+
+  .categories img{
+    height: 25rem;
+    width: 25rem;
+box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-top: .7rem;
+  }
+
+  .cat-row{
+    display: flex;
+   
+    list-style: none;
+}
+
+#category2 img, #category3 img, #category1 img{
+  border-radius: 3rem;
+}
+
+#best-header{
+  margin-bottom: 5rem;
+  color: rgb(106, 56, 33);
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 991px){
+
+  html{
+    font-size: 10px;
+  }
+
+  .parent-about{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+  }
+
+  .categories{
+    flex-direction: column;
+  }
+
+  .best-sellers{
+    flex-direction: column;
+  }
+
+  .video-container{
+    overflow: hidden;
+  }
+
+  .about-paragraph{
+    font-size: xx-large;
+    width: 30rem;
+  }
+}

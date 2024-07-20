@@ -30,17 +30,17 @@ function Home(){
 
         <div id='category1'>
        <h2>Hair Care</h2>
-        <img src="/public/prod.png" alt="Hair products" />
+        <img src="/prod.png" alt="Hair products" />
         </div>
 
         <div id='category2'>
             <h2>Styling Tools</h2>
-        <img src="/public/products.png" alt="Hair Tools" />
+        <img src="/products.png" alt="Hair Tools" />
         </div>
 
         <div id='category3'>
             <h2>Skin Care</h2>
-        <img src="/public/bodycare.png" alt="SkinCare" />
+        <img src="/bodycare.png" alt="SkinCare" />
         </div>
 
 

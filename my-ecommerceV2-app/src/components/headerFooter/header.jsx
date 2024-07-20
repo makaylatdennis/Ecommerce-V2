@@ -28,11 +28,11 @@ import { Link } from "react-router-dom";
 
 
         <div className="hamburger" onClick={handleMenuOpen}>
-            <img src="/public/hamburger-menu-icon-svg-7.png" height="50" className="on" id="on" alt="ss"/>
+            <img src="/hamburger-menu-icon-svg-7.png" height="50" className="on" id="on" alt="ss"/>
         </div>
         <div className={`alert ${menuOpen ? 'open' : ''}`}>  
             <ul className="navigation1">
-                <img src="/public/x.webp" class="close" id="close" alt="ss" onClick={handleMenuClose}/>
+                <img src="/x.webp" class="close" id="close" alt="ss" onClick={handleMenuClose}/>
                 <li><Link to="/">HOME</Link></li>
             <li><Link to="/shop">SHOP</Link></li>
             <li><Link to="/getintouch">GET IN TOUCH</Link></li>

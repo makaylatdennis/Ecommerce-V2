@@ -1,0 +1,43 @@
+.filter-component {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .drop-down {
+    position: relative;
+  }
+  
+  .dropbth {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dropbth:hover {
+    background-color: #f1f1f1;
+    border-color: #ccc;
+  }
+  
+  .dropbth:focus {
+    outline: none;
+    border-color: #999;
+  }
+  
+  .dropbth::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+  }
+  
+  .dropbth option {
+    background-color: #fff;
+    color: #333;
+  }
+  

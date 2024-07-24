@@ -1,4 +1,5 @@
 import React from 'react';
+import './filter.css'
 
 function Filter({ onCategoryChange, onPriceRangeChange, categories }) {
   const handleCategoryChange = (event) => {

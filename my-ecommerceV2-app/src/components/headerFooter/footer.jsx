@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer() {
     return (
@@ -13,6 +16,20 @@ function Footer() {
                         <input id="newsletter-input" name="newsletter" type="text" placeholder="example@mail.com" />
                         <button id="submit-bttn" onClick={() => console.log('Submit')}>Submit</button>
                         <h3>Connect With Us!</h3>
+                        <div className="social-icons">
+                     <a href="https://www.facebook.com" target="_blank" >
+                     <FontAwesomeIcon icon={faFacebook} className="icon" />
+                    </a>
+                 <a href="https://www.twitter.com" target="_blank" >
+                <FontAwesomeIcon icon={faTwitter} className="icon" />
+                </a>
+             <a href="https://www.instagram.com" target="_blank" >
+          <FontAwesomeIcon icon={faInstagram} className="icon" />
+         </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+        </a>
+      </div>
                     </div>
 
                     <div className="footer-col" id="footer2">

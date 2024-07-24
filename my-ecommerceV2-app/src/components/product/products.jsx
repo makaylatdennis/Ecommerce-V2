@@ -79,8 +79,10 @@ useEffect(() => {
     <>
 
       <div className="hero-container">
-        <h1 className="hero-heading">Our Products</h1>
+        <h1 className="hero-heading">Products</h1>
       </div>
+
+      <h1 id='prod-header'>Shop Our Products</h1>
 
       <Filter 
         categories={uniqueCategories} 
@@ -89,6 +91,7 @@ useEffect(() => {
       />
 
       <div className="main-content">
+      
         <div id="productsContainer">
         {filteredProducts.map((product, index) => (
             <ProductManipulation key={index} product={product} />

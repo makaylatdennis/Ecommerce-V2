@@ -103,3 +103,32 @@ footer .row {
         align-items: center;
     }
 }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
